@@ -13,12 +13,13 @@ And add the plugin in your ``config.yaml`` file:
 ```yaml
 plugins:
   - hyphenopoly
-    tags: td
+    tags: p, li, td 
 ```
 
 Notes:
 
-- This plugin is absolutely experimental and code contributions are welcome.
+- This plugin is absolutely experimental! You're warned.
+- Code contributions are welcome.
 - Only English is supported right now but it shouldn't be difficult to make the language an option.
 - Using hyphenopoly will make the text appear normally on your PDF, but copy-pasting
   will give you space-cut words. It is also possible that the PDF will not
