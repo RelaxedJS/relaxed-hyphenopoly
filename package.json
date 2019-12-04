@@ -1,0 +1,22 @@
+{
+  "name": "relaxed-hyphenopoly",
+  "version": "0.2.0",
+  "description": "Hyphenopoly plugin for ReLaXed",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Zulko",
+  "homepage": "https://github.com/RelaxedJS/relaxed-hyphenopoly",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "hyphenopoly": "^3.3.0"
+  },
+  "devDependencies": {
+    "diff": "^4.0.1",
+    "mocha": "^6.0.2",
+    "pdf-image": "^2.0.0",
+    "pixel-diff": "^1.0.1"
+  }
+}
